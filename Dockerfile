@@ -1,4 +1,4 @@
-FROM golang:1.14.6-alpine3.12 as builder
+FROM golang:1.14.6
 RUN mkdir -p /go/src/github.com/zylerdj/zyler.travel-go
 COPY go.mod go.sum /go/src/github.com/zylerdj/zyler.travel-go
 WORKDIR /go/src/github.com/zylerdj/zyler.travel-go

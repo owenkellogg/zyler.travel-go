@@ -1,4 +1,4 @@
-module zyler.travel
+module zyler.travel-go
 
 go 1.18
 
